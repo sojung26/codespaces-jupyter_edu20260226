@@ -1,0 +1,14 @@
+2026/02/26-03:53:52.713 75a4 Creating DB /workspaces/codespaces-jupyter/AAWS_project/my_quotes_profile/Default/Local Extension Settings/lfacgpeklhlaepebamhamcdciikfecci since it was missing.
+2026/02/26-03:53:52.719 75a4 Reusing MANIFEST /workspaces/codespaces-jupyter/AAWS_project/my_quotes_profile/Default/Local Extension Settings/lfacgpeklhlaepebamhamcdciikfecci/MANIFEST-000001
+2026/02/26-03:53:57.962 75a4 Level-0 table #5: started
+2026/02/26-03:53:58.045 75a4 Level-0 table #5: 4896694 bytes OK
+2026/02/26-03:53:58.048 75a4 Delete type=0 #3
+2026/02/26-03:54:08.144 75a5 Level-0 table #7: started
+2026/02/26-03:54:08.236 75a5 Level-0 table #7: 5919536 bytes OK
+2026/02/26-03:54:08.238 75a5 Delete type=0 #4
+2026/02/26-03:56:09.710 75a5 Level-0 table #9: started
+2026/02/26-03:56:09.794 75a5 Level-0 table #9: 4729992 bytes OK
+2026/02/26-03:56:09.796 75a5 Delete type=0 #6
+2026/02/26-03:56:12.727 75a4 Level-0 table #11: started
+2026/02/26-03:56:12.837 75a4 Level-0 table #11: 5787677 bytes OK
+2026/02/26-03:56:12.839 75a4 Delete type=0 #8

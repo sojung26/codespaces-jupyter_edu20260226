@@ -1,0 +1,21 @@
+{
+    "cookies": [
+        {
+            "name": "session",
+            "value": "eyJjc3JmX3Rva2VuIjoiTWpXcFZmZUl1YVNMeFR5Z3RoR1pZbHJOS3NQQUVVQkRicUZPaW52d21Sem9DSmRIY1hrUSIsInVzZXJuYW1lIjoiXHVhZTQwXHVkNjE1XHVjNmIxIn0.aZ_IQA.rKVWQ1q4Ac1BpO9uo6boXxXibb0",
+            "domain": "quotes.toscrape.com",
+            "path": "/",
+            "expires": -1,
+            "size": 177,
+            "httpOnly": true,
+            "secure": false,
+            "session": true,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "NonSecure",
+            "sourcePort": 80
+        }
+    ],
+    "origins": []
+}
