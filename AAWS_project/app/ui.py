@@ -55,11 +55,21 @@ if "messages" not in st.session_state:
 with st.sidebar:
     st.title("🤖 LLMOps Chat")
     
+    # 교육 중 업데이트 됨: agents 폴더에서 사용 가능한 모듈을 동적으로 로드
+    agents_dir = os.path.join(os.path.dirname(__file__), "agents")
+    available_agents = []
+    if os.path.exists(agents_dir):
+        for f in os.listdir(agents_dir):
+            if f.endswith(".py") and f != "__init__.py":
+                available_agents.append(f[:-3])  # .py 제거
+
+    if not available_agents:
+        available_agents = ["chatbot", "multimodal_agent"]  # Fallback
+
     # Agent Selector
     agent_name = st.radio(
         "Select Agent",
-        ["chatbot", "multimodal"], # ["basic", "rag-basic", "rag-self-query", "multimodal"] --- IGNORE ---
-        ["basic", "rag-basic", "rag-self-query", "multimodal"],
+        available_agents,
         index=0
     )
     
